@@ -16,7 +16,7 @@ data class CharacterDetailDto(
     val status: String
 )
 
-fun CharacterDto.toCharacterDetail() : CharacterDetail {
+fun CharacterDetailDto.toCharacterDetail() : CharacterDetail {
     return CharacterDetail(
         birthday, char_id, img, name, nickname, occupation, status
     )
